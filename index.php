@@ -1,66 +1,10 @@
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Angélique et son équipe vous accueillent dans un cadre original, chaleureux et relaxant pour se détendre et prendre enfin soin de vous." />
-		<meta name="p:domain_verify" content="97999313d0899a4d4b8913a5db1687db"/>
-    <title>Le salon d'Angélique</title>
-		<link href="style.css" rel="stylesheet">
-		<link href="bootstrap.min.css" rel="stylesheet">
-		<link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	</head>
-	
-  <body>
-	
-<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-81288522-1', 'auto');
-		ga('send', 'pageview');
-</script>
-	
+    <?php include("includes/header.php"); ?>
+    <?php include("includes/menu.php"); ?>
+    <?php include("includes/analytics.php"); ?>
 
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-  
-  
-  
-    <div class="container-fluid">
-	<div class="row">
-	
-		
-		
-		
-		<div class="col-md-12">
-		
-		<nav id="nav-main">
-		<div class="hidden-xs"><h1><img src="images/LOGOA.png" alt="..."/></h1>
-		</div>
-		<div class="visible-xs"><h1><img src="images/PETITLogosalon.png" alt="Le salon d'angélique"/></h1>
-		</div>
-		
-
-		</nav>
-		<div id="nav-trigger">
-    <span>Menu</span>
-		</div>
+        
 
 
 			<div class="row">
@@ -484,58 +428,4 @@ Zone dans notre espace dédié au bien être en compagnie de Naima.  </p>
 			
 															
   </body>
- 
-
-
- 
- <footer>
-
-
-
-
- 
- 
- 
- 
-
-<div id="contact"> 
-  	<div class="row">
-					<div class="col-xs-6 col-md-6">
-						
-							<address>
-								 <p class="semibold text-uppercase" style="font-size:35px; letter-spacing: 0.1em; color: black;"><br>Horaires</p>
-								 <br>
-								 sur rendez-vous<br> 
-lundi au samedi de 10h à 18 h 30 <br>
-nocturne jeudi jusqu'à 20 h<br><br>
-								 <p><a href="http://www.facebook.com/lesalondangelique"><img src="images/lesalondangelique-f.png" alt="..."></a><a href="https://fr.pinterest.com/salondangelique/"><img src="images/lesalondangelique-p.png" alt="..." ></p>
-							<a href="mentions.html">Mentions légales</a>    </address>
-					</div>	
-						<div class="col-xs-6 col-md-6">
-							 
-							<address>
-								  <br><br><div class="hidden-xs"><p><img src="images/PETITLOGOH.png" alt="..." ></p></div>
-								  <div class="visible-xs"><p><img src="images/PETITLOGO.png" alt="..."/></p></div>
-								  <p>Utilise</p>
-								  <p><img src="images/davines.png" alt="..." ></p>
-								  4 Avenue de Messine<br> PARIS, 75008<br> <br> <abbr title="Phone">Tel:</abbr> 01.45.62.17.63
-							</address>
-						
-						</div>
-						
-								
-					
-				</div>
-				
-</div>
-  </footer>
-				
-			</div>
-		</div>
-	</div>
-</div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</html>
+  <?php include("includes/footer.php"); ?>

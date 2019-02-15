@@ -5,36 +5,36 @@
 
 
 	<div id="contact">
-		<div class="sectioncontact">
-			<div class="row">
 				<div class="hidden-xs hidden-md col-lg-12">
 					<h1>Contact</h1>
+					<p class="text-center"><img src="images/imgcontact.jpg" alt="..." ></p>
+				</div>
+				<div class="row">
 					<div class="col-lg-4">
-					<br>
 					</div>	
 					<div class="col-lg-4">
-						<div class="bulle1">
-
-						<?php
-							$TO = "contact@lesalondangelique.com";
-							$subject = "Message du site Lesalondangelique";
-							$message = "";
-
-							foreach($_POST as $key => $val){
-								$message .= "$key : $val\n";
-							}
-							
-							mail($TO,$subject,$message);
-							echo "L'email a été envoyé."; ?>
-
-
-	   				</div>
-	   			</div>
+						
+							<form method="POST" action="formulaire.php" >
+							<div class="form-group">
+								<input type="hidden" name="subject" value="formmail">
+								<label for="nom">Votre Nom:</label> 
+								<input type="text" name="nom" class="form-control">
+								<label for="email">Votre Email:*</label>
+								<input type="text" name="email"  required="required" class="form-control">
+								<label for="title">Sujet:</label> 
+								<input type="text" name="title"  class="form-control">
+								<label for="comments">Commentaires:</label><br>
+								<textarea name="comments" class="form-control"></textarea> <br>
+								<input class="btn" type="submit" value="Envoyer"> -
+								<input class="btn" type="reset" value="Annuler">
+								</div>
+							</form>
+						
+					</div>
 					<div class="col-lg-4">	
 					</div>
 				</div>	
-			</div>
-		</div>
+
 	
 
 
@@ -59,12 +59,4 @@
  
  
  
- 
-
-
-
- 
-						 
-
-	   
  
