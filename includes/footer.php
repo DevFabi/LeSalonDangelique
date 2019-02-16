@@ -6,16 +6,18 @@
             <div class="col-xs-6 col-md-6">
                 <address>
                     <p class="semibold text-uppercase" style="font-size:35px; letter-spacing: 0.1em; color: black;"><br>Horaires</p>
-                    <br>sur rendez-vous<br> 
+                    SUR RENDEZ-VOUS<br> 
                     lundi au samedi de 10h à 18 h 30 <br>
-                    nocturne jeudi jusqu'à 20 h<br><br>
+                    nocturne jeudi jusqu'à 20 h<br><br> 
                     <p>
+                        <a href="http://www.instagram.com/lesalondangelique">
+                        <img src="images/lesalondangelique-instagram.png" alt="..."></a>
                         <a href="http://www.facebook.com/lesalondangelique">
                         <img src="images/lesalondangelique-f.png" alt="..."></a>
                         <a href="https://fr.pinterest.com/salondangelique/">
                         <img src="images/lesalondangelique-p.png" alt="..." >
                     </p>
-                    <a href="mentions.php">Mentions légales</a>    
+                    <a href="mentions.php" id="mentions">Mentions légales</a>    
                 </address>
             </div>	
             <div class="col-xs-6 col-md-6">
@@ -23,10 +25,10 @@
                     <br><br>
                     <div class="hidden-xs"><p><img src="images/PETITLOGOH.png" alt="..." ></p></div>
                     <div class="visible-xs"><p><img src="images/PETITLOGO.png" alt="..."/></p></div>
-                    <p>Utilise</p>
-                    <p><img src="images/davines.png" alt="..." ></p>
+                    <!--<p>Utilise</p>
+                    <p><img src="images/davines.png" alt="..." ></p>-->
                     4 Avenue de Messine<br> 
-                    PARIS, 75008<br> <br> 
+                    PARIS, 75008<br>
                     <abbr title="Phone">Tel:</abbr> 01.45.62.17.63
                 </address>
             </div>

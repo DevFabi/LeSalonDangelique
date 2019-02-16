@@ -382,4 +382,10 @@ display: block;}
 
 /* Vert fond ancien : #9dcaa9 */ 
 
+#mentions{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
 

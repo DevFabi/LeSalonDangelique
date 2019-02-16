@@ -41,11 +41,11 @@
 			<h1><span style="border-bottom: #D1F2EB solid 9px;display: inline-block;line-height: 0.5em;position: relative;"> L'équipe </span></h1><br>
 			<div class="row">
 				<div class="col-md-2"></div>
-				<div class="col-md-4">
+				<div class="col-md-4"><br>
 					<p><img src="images/coloriste_angelique.png" alt="..." ></p>
 				</div>
 				<div class="col-md-5">
-					<br><p>Passionnée depuis toujours par la couleur, j’ai eu envie d’ouvrir mon propre salon après une belle décennie passée dans le 16ème arrondissement en étroite collaboration avec la marque DAVINES. J&#39;aime travailler mes balayages en crêpage ce qui donne en effet très naturel au cheveux ainsi que l&#39;application d&#39;une patine qui vous apportera brillance et neutralisera les reflets suivant le résultat souhaité. En ce qui concerne <a href="coupecouleur.php" id="lien_service">la couleur</a>, MASK de DAVINES est pour moi le must. Vibrante, ultra naturelle, brillante, elle laisse le cheveu doux et soyeux. J’attache une importance toute particulière au bien être de mes clients, surtout au moment du shampoing en exécutant de fabuleux massages du cuir chevelu que vous pourrez découvrir dans <a href="hairspa.php" id="lien_service">l&#39;espace HAIRSPA</a> dédié spécifiquement au rituel du cheveux. L’essentiel étant pour moi de travailler dans une belle atmosphère alliant plaisir, convivialité et envie de réaliser des colorations personnalisées. Il fallait donc à mes cotés une équipe de grand professionnels.<br><br></p> 
+					<br><p>Passionnée depuis toujours par la couleur, j’ai eu envie d’ouvrir mon propre salon après une belle décennie passée dans le 16ème arrondissement en étroite collaboration avec la marque DAVINES. J&#39;aime travailler mes balayages en crêpage ce qui donne en effet très naturel au cheveux ainsi que l&#39;application d&#39;une patine qui vous apportera brillance et neutralisera les reflets suivant le résultat souhaité. En ce qui concerne <a href="coupecouleur.php" id="lien_service">la couleur</a>, MASK de DAVINES est pour moi le must. Vibrante, ultra naturelle, brillante, elle laisse le cheveu doux et soyeux. J’attache une importance toute particulière au bien être de mes clients, surtout au moment du shampoing en exécutant de fabuleux massages du cuir chevelu que vous pourrez découvrir dans <a href="hairspa.php" id="lien_service">l&#39;espace HAIRSPA</a> dédié spécifiquement au rituel du cheveux. L’essentiel étant pour moi de travailler dans une belle atmosphère alliant plaisir, convivialité et envie de réaliser des colorations personnalisées. Il fallait donc à mes cotés une équipe de grand professionnels.</p> 
 				</div>
 				<div class="col-md-1">
 				</div>
@@ -54,12 +54,15 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 					<div class="col-md-6">
-						<p><br><br>Et une masseuse : <strong><span id="personnel">Naima</span></strong> Attentionnée et généreuse, elle a un véritable don pour les massages qu&#39;elle décrit souvent comme un voyage.<br><br> Venez la découvrir avec les différents <a href="massage.php" id="lien_service"> rituels de massages</a> que nous vous proposons dans l&#39;espace bien-être au sein de notre salon.</p>
+					<div class="hidden-xs">
+						<br><br><br>
+				</div>
+						<p>Une masseuse : <strong><span id="personnel">Naima</span></strong> Attentionnée et généreuse, elle a un véritable don pour les massages qu&#39;elle décrit souvent comme un voyage.<br><br> Venez la découvrir avec les différents <a href="massage.php" id="lien_service"> rituels de massages</a> que nous vous proposons dans l&#39;espace bien-être au sein de notre salon.</p>
 					</div>
 					<div class="col-md-4">
-						<div class="hidden-xs">
-							<img src="images/jm_naima.png" alt="..." ><br>
-						</div>
+						
+							<img src="images/jm_naima.png" alt="..." class="img-fluid"><br>
+						
 					</div>
 			</div>
 
@@ -67,11 +70,11 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-3">
 					<div class="hidden-xs">
-						<img src="images/coiffeuse_natalia.jpg" alt="..." ><br>
+						<img src="images/coiffeuse_natalia.jpg" alt="..." class="img-fluid"><br>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<p><br><br><br>A la coupe, <span id="personnel"><strong>Natalia</strong></span> remplace notre cher Jean-Michel.<br> Souriante et à l'écoute,elle saura vous guider dans votre choix.<br> Court ou long, peut importe du moment que vous ressortez heureuse, Telle est la motivation de notre Latina !<br>Et le plus,le <a href="maquillage.php" id="lien_service">make-up</a> pour terminer votre prestation en beauté.</p> <br>
+					<p><br>A la coupe, <span id="personnel"><strong>Natalia</strong></span> remplace notre cher Jean-Michel.<br> Souriante et à l'écoute,elle saura vous guider dans votre choix.<br> Court ou long, peut importe du moment que vous ressortez heureuse, Telle est la motivation de notre Latina !<br>Et le plus,le <a href="maquillage.php" id="lien_service">make-up</a> pour terminer votre prestation en beauté.</p> <br>
 					<p><strong><span id="personnel">Diana:</span></strong> Notre nouvelle assistante qui ADORE faire des massages de têtes! Appliqué dans tout ce qu'elle fait, Diana vous chouchoutera pour que vous passiez un super moment.</p>
 				</div>
 			</div>
