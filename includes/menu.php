@@ -8,10 +8,10 @@ $file = basename ($path);
     <ul>
         <li><a href="index.php">Accueil</a></li>
         <li><a href="index.php#lequipe">L'équipe</a></li>
-        <li><a href="hairspa.html">Hair SPA</a></li>
-        <li><a href="coupecouleur.html">Coupe et couleur</a></li>
-	      <li><a href="massage.html">Massage</a></li>
-	    	<li><a href="maquillage.html">Maquillage</a></li>
+        <li><a href="hairspa.php">Hair SPA</a></li>
+        <li><a href="coupecouleur.php">Coupe et couleur</a></li>
+	      <li><a href="massage.php">Massage</a></li>
+	    	<li><a href="maquillage.php">Maquillage</a></li>
 		    <li><a href="index.php#produits">Produits</a></li>
 		    <li><a href="http://blog.lesalondangelique.com">Blog</a></li>
         <li><a href="contact.php">Contact</a></li>

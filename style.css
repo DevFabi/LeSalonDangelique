@@ -93,37 +93,68 @@ font-size: 42px;
 
 
 
+.mot_equipe{
+  background-color: #D1F2EB;
+  border-radius: 8px;
+  padding: 9px;
+  margin: 5px;
+}
 
+#lien_service{
+  color: black;
+  text-decoration: none;
+  border-bottom:#D1F2EB solid 6px;
+  display: inline-block;
+  line-height: 0.3em;
+  position: relative;
+}
+#personnel{
+  background-color: #D1F2EB;
+}
 
 #signature {
 font-family: 'milasian_circa_thin_personaRg';
-font-size: 42px;
-
+font-size: 35px;
+text-align: right;
+font-weight: bold;
 }
 #signatureXS {
 font-family: 'milasian_circa_thin_personaRg';
-font-size: 33px;
+font-size: 25px;
+font-weight: bold;
+font-weight: bold;
 }
 
 #motangi {
 font-family: 'milasian_circa_thin_personaRg';
-font-size: 33px;
+font-size: 25px;
+font-weight: bold;
 }
 #motangiXS {
 font-family: 'milasian_circa_thin_personaRg';
-font-size: 28px;
+font-size: 23px;
+font-weight: bold;
 }
 
 .titredebut h1{
-
-font-size: 70px;}
+  text-align: center;
+  color:  black;
+  font-family: 'milasian_circa_thin_personaRg';
+  font-size: 50px;
+  letter-spacing: 0.1em;
+}
 .titredebutXS h1{
-
-font-size: 39px;}
+  text-align: center;
+  color:  black;
+  font-weight: bold;
+  font-family: 'milasian_circa_thin_personaRg';
+  font-size: 35px;
+  letter-spacing: 0.1em;
+}
 
 .pdebut p {
-
-font-size:23px;}
+font-size:20px;
+}
 .pdebutXS p {
 text-align: justify;
 font-size:17px;}
@@ -136,10 +167,11 @@ text-align:center;}
 
 .col-md-6 h1 {
 
-font-family: 'milasian_circa_thin_personaRg';
-text-align: center;
-color: #ADD6C2;
-letter-spacing: 0.1em; }
+  text-align: center;
+  color:  black;
+  font-family: 'milasian_circa_thin_personaRg';
+  letter-spacing: 0.1em;
+ }
 
 .col-md-6 p {
 font-family: 'champagne__limousinesregular';
@@ -149,10 +181,11 @@ text-align: center;
 
 .equipe h1  {
 text-align: center;
-color: #ADD6C2;
+color:  black;
 font-family: 'milasian_circa_thin_personaRg';
 font-size: 70px;
-letter-spacing: 0.1em; }
+letter-spacing: 0.1em;
+}
 
 .equipe h3  {
 text-align: center;
@@ -170,11 +203,12 @@ font-family: 'champagne__limousinesregular';
 
 .prestations h1 {
 
-text-align: center;
-color: #ADD6C2;
-letter-spacing: 0.1em;
-font-family: 'milasian_circa_thin_personaRg';
-font-size: 70px;}
+  text-align: center;
+  color:  black;
+  font-family: 'milasian_circa_thin_personaRg';
+  font-size: 70px;
+  letter-spacing: 0.1em;
+}
 
 
 .prestations p{
@@ -186,18 +220,20 @@ text-align: center;
 background-color: white;}
 
 
-section {
-background-color: #fbfbfb;
-text-align: center;
-
+#lequipe {
+  background-color: #f7f7f7c5;
+  text-align: center;
+  border:  #D1F2EB solid 2px;
+  margin: 14px;
+  padding: 10px;
 }
 
 #produits h1 {
-text-align: center;
-color: #ADD6C2;
-letter-spacing: 0.1em;
-font-family: 'milasian_circa_thin_personaRg';
-font-size: 70px;
+  text-align: center;
+  color:  black;
+  font-family: 'milasian_circa_thin_personaRg';
+  font-size: 70px;
+  letter-spacing: 0.1em;
 }
 
 .logocenter {
@@ -229,11 +265,11 @@ font-size: 20px;
 background-color:white;}
 
 #contact h1 {
-text-align: center;
-color: #ADD6C2;
-letter-spacing: 0.1em;
-font-family: 'milasian_circa_thin_personaRg';
-font-size: 70px; }
+  text-align: center;
+  color:  black;
+  font-family: 'milasian_circa_thin_personaRg';
+  font-size: 70px;
+  letter-spacing: 0.1em;}
 
 /* =Nav
 -------------------------------------------------------------- */
@@ -323,19 +359,15 @@ nav#nav-mobile {
 
 	  
 form {
-	text-align: center;
-	margin-left:auto;
-    margin-right:auto;
-    max-width: auto;
-	max-height: auto;
+    font-family: 'champagne__limousinesregular';
+    font-size: 18px;
     background: #FFF;
-padding: 30px 30px 20px 40px;
-    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
-    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
-    font: 14px Arial, Helvetica, sans-serif;
-    color: #666;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;}
+    padding: 30px 30px 20px 40px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 10px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 10px -1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
 
 
 #tarifs_makeup {

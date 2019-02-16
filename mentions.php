@@ -1,114 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include("includes/header.php"); ?>
+<?php include("includes/menu.php"); ?>
+<?php include("includes/analytics.php"); ?>
 
-    <title>Le salon d'Angélique</title>
-
-
-
-	<link href="style.css" rel="stylesheet">
-    <link href="bootstrap.min.css" rel="stylesheet">
-	<link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-    
-	
-			
-		
-  </head>
-  <body>
-
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-81288522-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  
-  
-  
-  
-<div class="fat-nav">
-  <div class="fat-nav__wrapper">
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="index.html#lequipe">L'équipe</a></li>
-        <li><a href="hairspa.html">Hair SPA</a></li>
-        <li><a href="coupecouleur.html">Coupe et couleur</a></li>
-    <li><a href="massage.html">Massage</a></li>
-    <li><a href="maquillage.html">Maquillage</a></li>
-    <li><a href="index.html#produits">Produits</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="jquery-script-ads" align="center">
-
-</script></div>
-<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script> 
-<script src="dist/jquery.fatNav.js"></script> 
-<script>
-(function() {
-    
-    $.fatNav();
-    
-}());
-</script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-  
-  
-  
-    <div class="container-fluid">
-	<div class="row">
-	
-		
-		
-		
-		<div class="col-md-12">
-		
-		<nav id="nav-main">
-		<div class="hidden-xs"><h1><img src="images/LOGOA.png" alt="..."/></h1><br></div>
-		<div class="visible-xs"><h1><img src="images/PETITlogosalon.png" alt="..."/></h1><br></div>
-		
-
-		</nav>
-		<div id="nav-trigger">
-    <span>Menu</span>
-		</div>
-
-
-			<div class="row">
-				<div class=" col-md-12">
-<div id="Lesalon">
-				
-				
+<div class="row">
+  <div class=" col-md-12">
+    <div id="Lesalon">
 				
 <h2>Informations légales</h2>
 <h3>1. Présentation du site.</h3>
 <p>En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <a href="http://www.lesalondangelique.com/" title="Angélique Vincendeau - www.lesalondangelique.com">www.lesalondangelique.com</a> l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</p>
 <p><strong>Propriétaire</strong> : Angélique Vincendeau – LE SALON D'ANGELIQUE – 4 Avenue de Messine 75008 PARIS<br />
-<strong>Créateur</strong>  : <a href="www.fabiolabelet.com">Belet Fabiola</a><br />
+<strong>Créateur</strong>  : <a href="https://www.linkedin.com/in/fabiola-belet-515752104/">Belet Fabiola</a><br />
 <strong>Responsable publication</strong> : Belet Fabiola – fabiola.belet@gmail.com<br />
 Le responsable publication est une personne physique ou une personne morale.<br />
 <strong>Webmaster</strong> : Belet Fabiola <br />
@@ -163,10 +65,9 @@ Le responsable publication est une personne physique ou une personne morale.<br 
 <p>Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l'identification des personnes physiques auxquelles elles s'appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).</p>
 
 
+    </div>
+  </div>
 </div>
-</div>
-</div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</html>
+
+
+<?php include("includes/footer.php"); ?>

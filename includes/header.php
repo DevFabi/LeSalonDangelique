@@ -24,7 +24,7 @@
             <nav id="nav-main">
                 <!-- LOGO VERSION PC  -->
                 <div class="hidden-xs">
-                    <h1><img src="images/LOGOA.png" alt="..."/></h1>
+                    <h1><img src="images/LOGOA.png" alt="Le salon d'angélique"/></h1>
                 </div>
                 <!--LOGO VERSION SMARTPHONE  -->
                 <div class="visible-xs">

@@ -15,7 +15,7 @@
                         <a href="https://fr.pinterest.com/salondangelique/">
                         <img src="images/lesalondangelique-p.png" alt="..." >
                     </p>
-                    <a href="mentions.html">Mentions légales</a>    
+                    <a href="mentions.php">Mentions légales</a>    
                 </address>
             </div>	
             <div class="col-xs-6 col-md-6">
